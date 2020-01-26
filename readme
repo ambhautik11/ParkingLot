@@ -1,0 +1,19 @@
+# Parking Lot
+
+## Installation
+
+Use java jdk 8 or more to run this program
+installation link https://docs.oracle.com/en/java/javase/13/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A
+
+
+## Usage
+
+open cmd and move to navigate <path to download folder>/ParkingLot/
+
+run bellow commands
+```bash
+    javac ./src/com/squad/exception/*.java -dc ./out/production/ParkingLot/
+    javac ./src/com/squad/model/*.java -d ./out/production/ParkingLot/
+    javac -classpath ./out/production/ParkingLot/ ./src/com/squad/*.java -d ./out/production/ParkingLot/
+    java -classpath ./out/production/ParkingLot/ com/squad/Main ./src/com/squad/input.txt
+```
