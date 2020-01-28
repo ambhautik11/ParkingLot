@@ -12,7 +12,7 @@ open cmd and move to navigate <path to download folder>/ParkingLot/
 
 run bellow commands
 ```bash
-    javac ./src/com/squad/exception/*.java -dc ./out/production/ParkingLot/
+    javac ./src/com/squad/exception/*.java -d ./out/production/ParkingLot/
     javac ./src/com/squad/model/*.java -d ./out/production/ParkingLot/
     javac -classpath ./out/production/ParkingLot/ ./src/com/squad/*.java -d ./out/production/ParkingLot/
     java -classpath ./out/production/ParkingLot/ com/squad/Main ./src/com/squad/input.txt
